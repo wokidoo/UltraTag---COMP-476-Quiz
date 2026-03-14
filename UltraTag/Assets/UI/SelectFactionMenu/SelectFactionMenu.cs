@@ -6,7 +6,6 @@ using UnityEngine.UIElements;
 public class SelectFactionMenu : MonoBehaviour
 {
     public GameObject gameManager;
-
     public GameObject pauseMenu;
     public GameObject UI;
     // Start is called before the first frame update
