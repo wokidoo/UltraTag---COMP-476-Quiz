@@ -2,7 +2,7 @@
 *COMP 476 - Advanced Game Development | Winter 2026 | Concordia University*
 > Rock, Paper, Scissors, Lizard, Spock (Battle Arena)
 ---
-
+> Repo: https://github.com/wokidoo/UltraTag---COMP-476-Quiz/tree/main
 ## Project Overview
 
 This project is a Unity 3D implementation of an extended Rock, Paper, Scissors game featuring five factions: Rocks, Papers, Scissors, Lizards, and Spocks. Each faction has 10 units that autonomously seek, flee, and battle opposing factions using fuzzy logic-driven Group AI and a state machine-based Individual AI. The game ends when all units of any one faction are eliminated.
