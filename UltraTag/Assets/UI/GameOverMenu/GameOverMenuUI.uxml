@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Container" style="flex-grow: 1; justify-content: center; min-width: 75%; max-width: 75%; align-items: stretch; align-self: center;">
+        <ui:Label tabindex="-1" text="Game Over" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GameOverLabel" style="align-items: center; -unity-text-align: upper-center; -unity-font-style: bold; font-size: 25%; color: rgb(255, 255, 255);" />
+        <ui:Label tabindex="-1" text="... lost!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GameOverMessage" binding-path="GameOverMessage" style="align-items: center; -unity-text-align: upper-center; -unity-font-style: bold; font-size: 15%; color: rgb(255, 255, 255);" />
+        <ui:Button text="Restart" parse-escape-sequences="true" display-tooltip-when-elided="true" binding-path="RestarButton" name="RestartButton" />
+        <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuitButton" binding-path="QuitButton" />
+    </ui:VisualElement>
+</ui:UXML>

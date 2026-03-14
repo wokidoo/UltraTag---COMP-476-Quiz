@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Container" style="flex-grow: 1; justify-content: center; min-width: 75%; max-width: 75%; align-self: center;">
+        <ui:Label tabindex="-1" text="Choose Your Faction" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-items: center; -unity-text-align: upper-center; -unity-font-style: bold; font-size: 25%; color: rgb(255, 255, 255);" />
+        <ui:Button text="Paper" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PaperButton" binding-path="PaperButton" />
+        <ui:Button text="Rock" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RockButton" binding-path="RockButton" />
+        <ui:Button text="Scissor" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ScissorButton" binding-path="ScissorButton" />
+        <ui:Button text="Spock" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SpockButton" binding-path="SpockButton" />
+        <ui:Button text="Lizard" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LizardButton" binding-path="LizardButton" />
+    </ui:VisualElement>
+</ui:UXML>

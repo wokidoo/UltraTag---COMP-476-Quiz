@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Container" style="flex-grow: initial; -unity-text-align: middle-left; width: initial; max-width: 50%; align-self: center; justify-content: center; align-items: stretch; flex-direction: column; min-width: 50%; top: 25%; bottom: 25%;">
+        <ui:Label tabindex="-1" text="Paused" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PauseLabel" style="-unity-font-style: bold; font-size: 25%; -unity-text-align: upper-center; color: rgb(255, 255, 255);" />
+        <ui:Button text="Resume" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResumeButton" />
+        <ui:Button text="Restart" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RestartButton" />
+        <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuitButton" />
+    </ui:VisualElement>
+</ui:UXML>
